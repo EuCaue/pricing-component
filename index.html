@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pricing</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./style.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <script
+      src="./script.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <div class="intro">
+      <span>
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No Credit card required.</p>
+      </span>
+    </div>
+
+    <main class="container">
+      <section class="flex-center price">
+        <small>100K PAGEVIEWS</small>
+        <p>$16.00 <span>/ month</span></p>
+        <form class="flex-center form">
+          <input
+            type="range"
+            min="1"
+            max="5"
+          />
+        </form>
+      </section>
+
+      <section class="flex-center biling">
+        <span class="biling-left"
+          >Monthly Biling
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </span>
+
+        <span class="biling-right"
+          >Yearly Biling
+          <span
+            class="discount"
+            data-mobile="-25%"
+            data-desktop="25% Discount"
+          ></span>
+        </span>
+      </section>
+
+      <footer class="flex-center footer">
+        <ul class="flex-center">
+          <li>
+            <span>
+              <img
+                src="images/icon-check.svg"
+                alt="checker"
+              />
+            </span>
+            Unlimited websites
+          </li>
+
+          <li>
+            <span>
+              <img
+                src="images/icon-check.svg"
+                alt="checker"
+              />
+            </span>
+            100% data ownership
+          </li>
+
+          <li>
+            <span>
+              <img
+                src="images/icon-check.svg"
+                alt="checker"
+              />
+            </span>
+            Email Reports
+          </li>
+        </ul>
+        <button type="button">Start my trial</button>
+      </footer>
+    </main>
+  </body>
+</html>
