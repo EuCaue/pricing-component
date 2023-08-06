@@ -14,4 +14,4 @@
 
 - [Live Preview](https://eucaue.github.io/pricing-component/)
 - [Challenge from Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8)
-- [Portfolio](https://portfolio-caue-souza.vercel.app/)
+- [Portfolio](https://www.eucaue.tech)
